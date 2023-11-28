@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 script {
-                    git ''
+                    git 'https://github.com/NinadTippat/pipeline.git'
                 }
             }
         }
